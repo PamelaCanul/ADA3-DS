@@ -1,0 +1,10 @@
+Equipo 
+	Canul Chacon, Pamela
+	Cetina Ucan, Iván 
+
+Funcionalidades agregadas: 
+
+1. Algoritmo de encriptamiento - El algoritmo esta sencillo, le suma 5 numeros del codigo ascii a la contraseña y de igual forma se tiene un algoritmo de desencriptamiento - 30 min 
+2. Login - Lee el archivo CSV de los usuarios, donde se encuentra la contraseña encriptada - 30 min 
+3. Ingreso del usuario al sistema - Se le pide al usuario ingresar su nombre de usuario y la contraseña que llama a la clase de encriptamiento para que la contraseña ingresada se encripte para posteriormente validarla - 30 min
+4. Validacion del usuario y la contraseña - El nombre de usuario y la contraseña encriptada se pasa a la clase de validacion para que se verifique que ambos sean correctos, si uno no coincide no se permite el acceso - 30 min 
