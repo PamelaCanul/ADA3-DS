@@ -33,6 +33,9 @@ public class ViistaEstudiantes extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
+        jButtonGenerarPDF = new javax.swing.JButton();
+        jButtonGenerarCSV = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
         jLabelFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -65,7 +68,19 @@ public class ViistaEstudiantes extends javax.swing.JFrame {
         jScrollPane1.setBackground(new java.awt.Color(255, 255, 255));
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane1.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 1010, 440));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 1010, 410));
+
+        jButtonGenerarPDF.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
+        jButtonGenerarPDF.setText("PDF");
+        getContentPane().add(jButtonGenerarPDF, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 560, -1, -1));
+
+        jButtonGenerarCSV.setFont(new java.awt.Font("Arial", 2, 14)); // NOI18N
+        jButtonGenerarCSV.setText("CSV");
+        getContentPane().add(jButtonGenerarCSV, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 560, -1, -1));
+
+        jLabel4.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        jLabel4.setText("Generar: ");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 560, -1, -1));
 
         jLabelFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/FondoAlumnos.png"))); // NOI18N
         getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1028, 592));
@@ -109,10 +124,13 @@ public class ViistaEstudiantes extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonGenerarCSV;
+    private javax.swing.JButton jButtonGenerarPDF;
     private javax.swing.JButton jButtonSalir;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabelFondo;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
